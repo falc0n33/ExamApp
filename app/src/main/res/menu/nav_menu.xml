@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/rsa"
+         android:title="RSA">
+        </item>
+
+        <item android:id="@+id/rsa_sig"
+            android:title="RSA Signature">
+        </item>
+
+        <item android:id="@+id/legendre"
+            android:title="Legendre Symbol">
+        </item>
+
+        <item android:id="@+id/mod"
+            android:title="MOD">
+        </item>
+
+        <item android:id="@+id/galois"
+            android:title="Galois Filed">
+        </item>
+
+        <item android:id="@+id/fourier"
+            android:title="Discrete Fourier Transform">
+        </item>
+
+        <item android:id="@+id/figure"
+            android:title="Figure Group">
+        </item>
+
+        <item android:id="@+id/curve"
+            android:title="Elliptic Curve">
+        </item>
+
+        <item android:id="@+id/el_gamal"
+            android:title="ElGamal">
+        </item>
+
+        <item android:id="@+id/el_gamal_sig"
+            android:title="ElGamal Signature">
+        </item>
+
+        <item android:id="@+id/diffi_hellman"
+            android:title="Diffi-Hellman">
+        </item>
+
+        <item android:id="@+id/china_theorem"
+            android:title="China Theorem">
+        </item>
+
+        <item android:id="@+id/asmuth_bloom_encrypt"
+            android:title="Asmuth-Bloom Encrypt">
+        </item>
+
+        <item android:id="@+id/asmuth_bloom_decrypt"
+            android:title="Asmuth-Bloom Decrypt">
+        </item>
+    </group>
+</menu>
